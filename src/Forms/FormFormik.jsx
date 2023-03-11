@@ -29,7 +29,7 @@ const FormFormik = () => {
 
   return (
     <div>
-        <h4>Register Form</h4>
+        <h4>Create a Task</h4>
         <Formik initialValues={initialValues}  
                 validationSchema={formSchema}
         onSubmit={async (values) => {
